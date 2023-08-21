@@ -13,7 +13,7 @@ module.exports = {
         const time = interaction.options.getNumber('minute');
         console.log(time);
         if (!time) {
-            await interaction.reply(`Set time first.`); 
+            await interaction.reply(`Set time first!`); 
             return;
         } else {
             try {
